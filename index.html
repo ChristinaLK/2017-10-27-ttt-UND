@@ -3,12 +3,12 @@ layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "dc"    # what kind of Carpentry (must be either "dc" or "swc")
 venue: "Instructor Training for UND/UAS/Digital Ag @ Minnesota"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Minneapolis, MN 55455"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Lind Hall (room 409), 207 Church St SE, Minneapolis, MN 55455"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "44.9737519,-93.2345946"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "44.974517,-93.2355794"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "October 27-28, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00am - 5:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-10-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2017-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Christina Koch", "Tracy Teal"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -76,9 +76,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <p>
-  <strong>Who:</strong> The course is aimed at everyone who is
-  interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become Software and Data Carpentry
+  <strong>Who:</strong> This course is for Midwest Big Data Hub members 
+  and other invited guests who want to become Software and Data Carpentry
   instructors, run workshops and contribute to the Carpentry training
   materials.  You don't currently have to be an instructor or a
   teacher to attend this workshop, but you do need to be willing and
@@ -131,13 +130,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organisers have checked that:
+  <!-- The workshop organisers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
-<p>
+<p> -->
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
@@ -173,9 +172,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
   Please read the following before the workshop begins:
 </p>
-<ol>
+<ul>
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-</ol>
+</ul>
 <p>
   Please also read through <em>one</em> of the episodes below
   carefully, so that you can do some exercises based on it on the
@@ -203,53 +202,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div>
 
-<hr/>
+<h2 id="resources" name="resources">Resources</h2>
 
+<h3>Course Materials</h3>
 <p>
   Please see <a href="{{ site.training_site }}">this site</a> for course material and for the schedule.
 </p>
-
-
-<!--
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Day 1</td> <td>09:00</td> <td>Welcome</td> </tr>
-      <tr> <td>     </td> <td>09:10</td> <td>Introduction</td> </tr>
-      <tr> <td>     </td> <td>09:40</td> <td>Novices and Formative Assessment</td> </tr>
-      <tr> <td>     </td> <td>10:40</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:55</td> <td>Teaching as a Performance Art</td> </tr>
-      <tr> <td>     </td> <td>11:55</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:10</td> <td>Lunch</td> </tr>
-      <tr> <td>     </td> <td>13:10</td> <td>Expertise and Memory</td> </tr>
-      <tr> <td>     </td> <td>14:25</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>14:40</td> <td>Performance Revised</td> </tr>
-      <tr> <td>     </td> <td>15:25</td> <td>Cognitive Load</td> </tr>
-      <tr> <td>     </td> <td>16:05</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:20</td> <td>Finish</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Day 2</td> <td>09:00</td> <td>Live Coding</td> </tr>
-      <tr> <td>     </td> <td>10:15</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:30</td> <td>The Carpentries</td> </tr>
-      <tr> <td>     </td> <td>11:30</td> <td>Carpentry Teaching Practices</td> </tr>
-      <tr> <td>     </td> <td>12:00</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:15</td> <td>Lunch</td> </tr>
-      <tr> <td>     </td> <td>13:15</td> <td>Motivation and Demotivation</td> </tr>
-      <tr> <td>     </td> <td>14:00</td> <td>Lessons and Objectives</td> </tr>
-      <tr> <td>     </td> <td>15:00</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>15:15</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:00</td> <td>Finish</td> </tr>
-    </table>
-  </div>
-</div>
-
--->
 
 <!--
   ETHERPAD
@@ -266,11 +224,50 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   e.g., '2015-06-10-esu'.
 -->
 {% if page.etherpad %}
-<hr/>
 
+<h3>Shared Note-Taking</h3>
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
+
+<h2 id="schedule" name="schedule">Schedule</h2>
+
+<p>The following is an approximate overview of our training schedule.  </p>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr> <td>Day 1</td> <td>09:00</td> <td>Welcome</td> </tr>
+      <tr> <td>     </td> <td>09:15</td> <td>How Learning Works</td> </tr>
+      <tr> <td>     </td> <td>11:10</td> <td>Morning Coffee</td> </tr>
+      <tr> <td>     </td> <td>09:15</td> <td>How Learning Works, cont.</td> </tr>
+      <tr> <td>     </td> <td>12:30</td> <td>Lunch</td> </tr>
+      <tr> <td>     </td> <td>13:30</td> <td>Building a Positive Workshop Environment</td> </tr>
+      <tr> <td>     </td> <td>15:20</td> <td>Afternoon Coffee</td> </tr>
+      <tr> <td>     </td> <td>15:35</td> <td>Building a Positive Workshop Environment, cont.</td> </tr>
+      <tr> <td>     </td> <td>16:45</td> <td>Afternoon Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>17:00</td> <td>Finish</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr> <td>Day 2</td> <td>09:00</td> <td>Building Teaching Skill</td> </tr>
+      <tr> <td>     </td> <td>11:05</td> <td>Morning Coffee</td> </tr>
+      <tr> <td>     </td> <td>11:20</td> <td>Building Teaching Skill, cont.</td> </tr>
+      <tr> <td>     </td> <td>12:00</td> <td>Lunch</td> </tr>
+      <tr> <td>     </td> <td>13:00</td> <td>The Carpentries</td> </tr>
+      <tr> <td>     </td> <td>15:15</td> <td>Afternoon Coffee</td> </tr>
+      <tr> <td>     </td> <td>15:30</td> <td>The Carpentries</td> </tr>
+      <tr> <td>     </td> <td>16:00</td> <td>Afternoon Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>16:45</td> <td>Finish</td> </tr>
+    </table>
+  </div>
+</div>
+
+
